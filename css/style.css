@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;
+}
+
+body{
+    font-family: 'Montserrat',sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+.header-top{
+    width: 100%;
+    height: 60px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+}
+
+.header-title{
+    font-size: 2rem;
+    color: white;
+}
+
+.header-nav ul{
+    display: flex;
+}
+
+.header-nav li{
+    margin: 0 15px;
+}
+
+.header-nav a{
+    font-weight: 600;
+    color: white;
+    transition: 0.5s;
+}
+
+.header-nav a:hover{
+    color: rgba(0, 89, 255, 0.959);
+}
+
+.mid{
+    width: 100%;
+    height: 100vh;
+    padding: 0 10px;
+    background-image:url(../images/exercicio.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.mid-title{
+    margin-bottom: 2rem;
+    font-size: 10vmin;
+}
+
+.mid-text{
+    margin-bottom: 2rem;
+    font-size: 5vmin;
+}
+
+.serviço{
+    width: 80%;
+    min-height: 100vh;
+    margin: 20px auto;
+    padding: 80px 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.serviço-title{
+    margin-bottom: 20px;
+    font-size: 8vmin;
+    text-align: center;
+
+}
+
+.serviço-list{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.serviço-list-item{
+    margin-top: 30px;
+    width: 40%;
+    text-align: center;
+}
+
+.serviço-list img{
+    width: 80%;
+}
+
+.serviço-list-item h3{
+    font-size: 4vmin;
+    margin: 20px 0;
+}
+.clientes {
+    width: 80%;
+    min-height: 100vh;
+    margin: 20px auto;
+    padding: 80px 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.clientes-title {
+    margin-bottom: 20px;
+    font-size: 8vmin;
+    text-align: center;
+
+}
+
+.clientes-list {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.clientes-list-item {
+    margin-top: 30px;
+    width: 40%;
+    text-align: center;
+}
+
+.clientes-list img {
+    width: 80%;
+}
+
+.clientes-list-item h3 {
+    font-size: 4vmin;
+    margin: 20px 0;
+}
+
+.contatos {
+    width: 80%;
+    min-height: 100vh;
+    margin: 20px auto;
+    padding: 80px 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contatos-title {
+    margin-bottom: 20px;
+    font-size: 8vmin;
+    text-align: center;
+
+}
+
+.contatos-list {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contatos-list-item {
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+.contatos-list img {
+    width: 80%;
+}
+
+.contatos-list-item h3 {
+    font-size: 4vmin;
+    margin: 20px 0;
+}
+.active-scroll{
+    background-color: rgb(185, 185, 185) ;
+}
